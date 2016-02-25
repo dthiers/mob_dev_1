@@ -1,0 +1,7 @@
+.swiped{
+  background-color: lightblue !important;
+}
+
+.swipelist li {
+  padding: 35px !important;
+}

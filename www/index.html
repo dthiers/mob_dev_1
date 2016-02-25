@@ -27,23 +27,44 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css" />
+        <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" /> -->
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
+        <div class="">
             <h1>Dion's First PhoneGap App..</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is a penis</p>
             </div>
-            <p>
-              YOU KNOW WHAT?!! FUCK YOU PHONEGAP BULLSHIT HYBRID FUCKING SHITFACE
-            </p>
+
         </div>
+
+        <div>
+          <ul class="swipelist" data-role="listview">
+            <li>Dion</li>
+            <li>Fahiem</li>
+          </ul>
+        </div>
+
+        <div>
+          <button id="button">Testje</button>
+        </div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery-2.2.1.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <!-- <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+        <!-- <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script> -->
+        <script type="text/javascript" src="js/script.js"></script>
+
         <script type="text/javascript">
             app.initialize();
         </script>
+
+
     </body>
 </html>
